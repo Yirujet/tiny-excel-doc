@@ -1,0 +1,17 @@
+{
+  "name": "tiny-excel-doc",
+  "description": "tiny-excel 是一个由 canvas 实现的简易版高性能网页 Excel，由原生 js 实现，跨框架，在 Angular、React、VUE 中均可正常使用。",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.10",
+    "webpack": "^4.42.0"
+  }
+}
