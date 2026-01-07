@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Description of available methods on the sheet instance. | Tiny Excel</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="tiny-excel is a simple, high-performance web-based Excel application implemented using HTML5 canvas.  It&#39;s built with pure JavaScript, is framework-agnostic, and works seamlessly with Angular, React, and Vue.">
+    
+    <link rel="preload" href="/tiny-excel-doc/assets/css/0.styles.062d3133.css" as="style"><link rel="preload" href="/tiny-excel-doc/assets/js/app.dbba8170.js" as="script"><link rel="preload" href="/tiny-excel-doc/assets/js/2.12831987.js" as="script"><link rel="preload" href="/tiny-excel-doc/assets/js/1.8057c73a.js" as="script"><link rel="preload" href="/tiny-excel-doc/assets/js/27.be42628a.js" as="script"><link rel="prefetch" href="/tiny-excel-doc/assets/js/10.1b178dc7.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/11.6808b5c1.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/12.13fe57d9.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/13.5119960f.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/14.7be36a6b.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/15.d6bca217.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/16.e3a2aa54.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/17.ede06ad9.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/18.99e6bfc2.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/19.4e4efe27.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/20.e8bcee5d.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/21.44c91dd9.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/22.45c7e4d9.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/23.53b146b7.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/24.b1180838.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/25.22e48858.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/26.c9a4ada8.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/28.1a08f5fd.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/29.9e45ff64.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/3.a1fb8b1e.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/30.848b79c5.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/31.c8ea9f46.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/32.e610a99e.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/33.77e905c1.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/34.8820ac0b.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/4.db06a48d.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/5.d461f9dd.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/6.47766102.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/7.e99bb04f.js"><link rel="prefetch" href="/tiny-excel-doc/assets/js/vendors~docsearch.cc58001a.js">
+    <link rel="stylesheet" href="/tiny-excel-doc/assets/css/0.styles.062d3133.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/tiny-excel-doc/" class="home-link router-link-active"><!----> <span class="site-name">Tiny Excel</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tiny-excel-doc/guide/method.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/tiny-excel-doc/zh/guide/method.html" class="nav-link">
+  简体中文
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tiny-excel-doc/guide/method.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/tiny-excel-doc/zh/guide/method.html" class="nav-link">
+  简体中文
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/tiny-excel-doc/guide/install.html" class="sidebar-link">Install</a></li><li><a href="/tiny-excel-doc/guide/use.html" class="sidebar-link">Get started quickly</a></li><li><a href="/tiny-excel-doc/guide/config.html" class="sidebar-link">Config</a></li><li><a href="/tiny-excel-doc/guide/method.html" aria-current="page" class="active sidebar-link">Description of available methods on the sheet instance.</a></li><li><a href="/tiny-excel-doc/guide/demo.html" class="sidebar-link">Demo</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="description-of-available-methods-on-the-sheet-instance"><a href="#description-of-available-methods-on-the-sheet-instance" class="header-anchor">#</a> Description of available methods on the sheet instance.</h3> <p><strong>setSelectionCellsStyle</strong></p> <blockquote><p>Set the style of the selected cells.</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">setSelectionCellsStyle</span><span class="token punctuation">(</span>selectedCells<span class="token punctuation">,</span> cellStyle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><blockquote><p>Parameter Description</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// selectedCells：The selected cell range, and the accepted data types.</span>
+<span class="token punctuation">[</span>number<span class="token punctuation">,</span> number<span class="token punctuation">,</span> number<span class="token punctuation">,</span> number<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// cellStyle：Cell style configuration object, accepted types</span>
+<span class="token punctuation">{</span>
+  text<span class="token operator">?</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">fontFamily</span><span class="token operator">:</span> string<span class="token punctuation">;</span>
+    <span class="token literal-property property">fontSize</span><span class="token operator">:</span> number<span class="token punctuation">;</span>
+    <span class="token literal-property property">bold</span><span class="token operator">:</span> boolean<span class="token punctuation">;</span>
+    <span class="token literal-property property">italic</span><span class="token operator">:</span> boolean<span class="token punctuation">;</span>
+    <span class="token literal-property property">underline</span><span class="token operator">:</span> boolean<span class="token punctuation">;</span>
+    <span class="token literal-property property">backgroundColor</span><span class="token operator">:</span> string<span class="token punctuation">;</span>
+    <span class="token literal-property property">color</span><span class="token operator">:</span> string<span class="token punctuation">;</span>
+    <span class="token literal-property property">align</span><span class="token operator">:</span> string<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  border<span class="token operator">?</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">solid</span><span class="token operator">:</span> boolean<span class="token punctuation">;</span>
+    <span class="token literal-property property">color</span><span class="token operator">:</span> string<span class="token punctuation">;</span>
+    <span class="token literal-property property">bold</span><span class="token operator">:</span> boolean<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>setCellImageMeta</strong></p> <blockquote><p>Set the image data for the cell.</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">setCellImageMeta</span><span class="token punctuation">(</span>cell<span class="token punctuation">,</span> image<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><blockquote><p>Parameter Description</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// cell：Cell object</span>
+<span class="token comment">// image：Image object, accepted type: File</span>
+</code></pre></div><p><strong>setCellMeta</strong></p> <blockquote><p>Set the cell's metadata; the cell will be rendered according to the metadata type and value.</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">setCellMeta</span><span class="token punctuation">(</span>cell<span class="token punctuation">,</span> cellMeta<span class="token punctuation">,</span> needDraw<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><blockquote><p>Parameter Description</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// cell：Cell object</span>
+<span class="token comment">// cellMeta：Cell metadata object, accepted types: CellTextMeta | CellImageMeta | CellDiagonalMeta | null</span>
+<span class="token keyword">export</span> type CellTextMetaData <span class="token operator">=</span> string<span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> type CellTextMeta <span class="token operator">=</span> CellMeta<span class="token operator">&lt;</span><span class="token string">&quot;text&quot;</span><span class="token punctuation">,</span> CellTextMetaData<span class="token operator">&gt;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> type CellImageMetaFill <span class="token operator">=</span> <span class="token string">&quot;fill&quot;</span> <span class="token operator">|</span> <span class="token string">&quot;contain&quot;</span> <span class="token operator">|</span> <span class="token string">&quot;cover&quot;</span> <span class="token operator">|</span> <span class="token string">&quot;none&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> type CellImageMetaData <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">img</span><span class="token operator">:</span> CanvasImageSource<span class="token punctuation">,</span>
+  <span class="token literal-property property">width</span><span class="token operator">:</span> number<span class="token punctuation">,</span>
+  <span class="token literal-property property">height</span><span class="token operator">:</span> number<span class="token punctuation">,</span>
+  <span class="token literal-property property">fit</span><span class="token operator">:</span> CellImageMetaFill<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> type CellImageMeta <span class="token operator">=</span> CellMeta<span class="token operator">&lt;</span><span class="token string">&quot;image&quot;</span><span class="token punctuation">,</span> CellImageMetaData<span class="token operator">&gt;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> type CellDiagonalMetaData <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">direction</span><span class="token operator">:</span> <span class="token string">&quot;top-left&quot;</span> <span class="token operator">|</span> <span class="token string">&quot;top-right&quot;</span> <span class="token operator">|</span> <span class="token string">&quot;bottom-left&quot;</span> <span class="token operator">|</span> <span class="token string">&quot;bottom-right&quot;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">value</span><span class="token operator">:</span> string<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> type CellDiagonalMeta <span class="token operator">=</span> CellMeta<span class="token operator">&lt;</span><span class="token string">&quot;diagonal&quot;</span><span class="token punctuation">,</span> CellDiagonalMetaData<span class="token operator">&gt;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">interface</span> <span class="token class-name">CellMeta</span><span class="token operator">&lt;</span><span class="token constant">T</span><span class="token punctuation">,</span> <span class="token constant">D</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">type</span><span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">;</span>
+  <span class="token literal-property property">data</span><span class="token operator">:</span> <span class="token constant">D</span><span class="token punctuation">;</span>
+  <span class="token punctuation">[</span>key<span class="token operator">:</span> string<span class="token punctuation">]</span><span class="token operator">:</span> any<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> type Meta <span class="token operator">=</span> CellTextMeta <span class="token operator">|</span> CellImageMeta <span class="token operator">|</span> CellDiagonalMeta <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+
+<span class="token comment">// needDraw：Whether to redraw immediately; accepted type: boolean</span>
+</code></pre></div><p><strong>merge</strong></p> <blockquote><p>Merge cells</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">merge</span><span class="token punctuation">(</span><span class="token punctuation">[</span>minRowIndex<span class="token punctuation">,</span> maxRowIndex<span class="token punctuation">,</span> minColIndex<span class="token punctuation">,</span> maxColIndex<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><strong>unmerge</strong></p> <blockquote><p>Cancel merge</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">unmerge</span><span class="token punctuation">(</span><span class="token punctuation">[</span>minRowIndex<span class="token punctuation">,</span> maxRowIndex<span class="token punctuation">,</span> minColIndex<span class="token punctuation">,</span> maxColIndex<span class="token punctuation">]</span>
+</code></pre></div><p><strong>getCell</strong></p> <blockquote><p>Get the cell object.</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">getCell</span><span class="token punctuation">(</span>rowIndex<span class="token punctuation">,</span> colIndex<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><strong>adjust</strong></p> <blockquote><p>Correcting the layout: This method is commonly used to adjust the sheet layout when the cell data is modified, causing changes to the cell's width and height.</p></blockquote> <p><strong>clearCellMeta</strong></p> <blockquote><p>Clear the cell</p></blockquote></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/tiny-excel-doc/guide/config.html" class="prev">
+        Config
+      </a></span> <span class="next"><a href="/tiny-excel-doc/guide/demo.html">
+        Demo
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/tiny-excel-doc/assets/js/app.dbba8170.js" defer></script><script src="/tiny-excel-doc/assets/js/2.12831987.js" defer></script><script src="/tiny-excel-doc/assets/js/1.8057c73a.js" defer></script><script src="/tiny-excel-doc/assets/js/27.be42628a.js" defer></script>
+  </body>
+</html>
